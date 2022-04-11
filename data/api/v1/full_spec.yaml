@@ -15182,6 +15182,11 @@ components:
             all hours in the current date for all organizations.
           format: int64
           type: integer
+        observability_pipelines_bytes_processed_sum:
+          description: Sum of all observability pipelines bytes processed over all
+            hours in the current date for the given org.
+          format: int64
+          type: integer
         online_archive_events_count_sum:
           description: Sum of all online archived events over all hours in the current
             date for all organizations.
@@ -15497,6 +15502,11 @@ components:
         npm_host_top99p:
           description: Shows the 99th percentile of all distinct Networks hosts over
             all hours in the current date for the given org.
+          format: int64
+          type: integer
+        observability_pipelines_bytes_processed_sum:
+          description: Sum of all observability pipelines bytes processed over all
+            hours in the current date for the given org.
           format: int64
           type: integer
         online_archive_events_count_sum:
@@ -15838,6 +15848,11 @@ components:
         npm_host_top99p_sum:
           description: Shows the 99th percentile of all distinct Networks hosts over
             all hours in the current months for all organizations.
+          format: int64
+          type: integer
+        observability_pipelines_bytes_processed_agg_sum:
+          description: Sum of all observability pipelines bytes processed over all
+            hours in the current months for all organizations.
           format: int64
           type: integer
         online_archive_events_count_agg_sum:
